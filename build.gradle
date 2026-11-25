@@ -5,12 +5,12 @@ plugins {
 // Change the values below this to your mods values
 // To change the project name, edit the settings.gradle file
 
-project.ext.modID = "bolo.bettertorch" // The unique id of your mod. Must be all lowercase and cannot use special characters.
-project.ext.modName = "A Better Torch" // The display name of your mod.
+project.ext.modID = "rkdevs.bettertorchreloaded" // The unique id of your mod. Must be all lowercase and cannot use special characters.
+project.ext.modName = "Better Torch Reloaded" // The display name of your mod.
 project.ext.modVersion = "1.2.2" // Your current builds version. Must follow the xx.xx... format.
 project.ext.gameVersion = "1.3.3" // The target game version.
 project.ext.modDescription = "A simple stronger torch, 2x the light of the vanilla one." // Short description of what your mod is.
-project.ext.author = "Bolo" // Your name
+project.ext.author = "Rkdevs" // Your name
 
 /**
  * When setting clientside to true, it means servers do not need this mod for clients to connect and vice versa.
@@ -69,8 +69,8 @@ dependencies {
 
     // Add any third party library dependencies here. Remember to use libDepends, so that they will be added to your jar on build
     // These are some examples:
-//    libDepends group: 'com.google.guava', name: 'guava', version: '31.1-jre'
-//    libDepends files("path/to/library/jar.jar")
+    // libDepends group: 'com.google.guava', name: 'guava', version: '31.1-jre'
+    // libDepends files("path/to/library/jar.jar")
 }
 
 task createAppID {
